@@ -1,9 +1,15 @@
+
+
 #:kivy 1.0.9
 MainScreenManager:
     Strikkeapp:
 
 <Strikkeapp>:
-    BoxLayout:
+#The main box where the buttons are placed in.
+#Orientation gives hos the orientation on the buttons should be
+#buttons are the buttons they can push to activate some kind of function. 
+#every buttons has it name based out of the main function in it.
+    BoxLayout:              
         orientation: "vertical"
         Button:
             background_color: ( 0.7, 0.4, 0, 1)
